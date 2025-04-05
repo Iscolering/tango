@@ -2,12 +2,11 @@ import styles from './GameControls.module.css';
 
 type GameControlsProps = {
   onUndo: () => void;
-  onHint: () => void;
   onReset: () => void;
   canUndo: boolean;
 };
 
-const GameControls = ({ onUndo, onHint, onReset, canUndo }: GameControlsProps) => {
+const GameControls = ({ onUndo, onReset, canUndo }: GameControlsProps) => {
   return (
     <div className={styles.controls}>
       <button 
@@ -17,9 +16,7 @@ const GameControls = ({ onUndo, onHint, onReset, canUndo }: GameControlsProps) =
       >
         Undo
       </button>
-      <button className={styles.button} onClick={onHint}>
-        Stuck? (Hint)
-      </button>
+      
       <button className={styles.button} onClick={onReset}>
         Reset
       </button>

@@ -1,8 +1,10 @@
+import { useEffect } from 'react';
 import { useGameState } from './hooks/useGameState';
 import Board from './components/Board/Board';
 import GameControls from './components/GameControls/GameControls';
 import HowToPlay from './components/HowToPlay/HowToPlay';
 import LevelSelector from './components/LevelSelector/LevelSelector';
+import { initSoundEffects, playSound } from './utils/soundEffects';
 import './App.css';
 
 function App() {
@@ -16,6 +18,18 @@ function App() {
     changeLevel 
   } = useGameState();
   
+  // Initialize sound effects on component mount
+  useEffect(() => {
+    initSoundEffects();
+  }, []);
+  
+  // Play sound when puzzle is completed
+  useEffect(() => {
+    if (gameState.isSolved) {
+      playSound('complete');
+    }
+  }, [gameState.isSolved]);
+  
   return (
     <div className="app">
       <h1>Tango Puzzle</h1>
@@ -25,7 +39,6 @@ function App() {
       <LevelSelector 
         currentLevel={gameState.currentLevelId}
         onSelectLevel={changeLevel}
-        //completedLevels={completedLevels}
       />
       
       <Board
@@ -36,7 +49,6 @@ function App() {
       
       <GameControls
         onUndo={undoMove}
-        onHint={getHint}
         onReset={resetGame}
         canUndo={gameState.historyIndex > 0}
       />
