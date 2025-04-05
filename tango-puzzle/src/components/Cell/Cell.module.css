@@ -1,0 +1,96 @@
+.cell {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all 0.2s;
+    user-select: none; /* Prevents text selection */
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none; /* For Firefox */
+    -ms-user-select: none; /* For IE/Edge */
+  }
+  
+  .editable {
+    background-color: white;
+  }
+  
+  .fixed {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    background-color: rgba(255, 0, 0, 0.2);
+  }
+  
+  .sun, .moon {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  
+  .moon {
+    font-size: 24px;
+    color: #1e90ff; /* Using a bright blue color for the moon */
+    filter: drop-shadow(0 0 2px #4a90e2); /* Adding a slight blue glow effect */
+  }
+  
+  .constraint {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+    z-index: 1;
+  }
+  
+  .right {
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .bottom {
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  @media (max-width: 500px) {
+    .cell {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+    
+    .sun {
+      font-size: 24px;
+    }
+    
+    .moon {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 350px) {
+    .cell {
+      width: 35px;
+      height: 35px;
+      font-size: 18px;
+    }
+    
+    .sun {
+      font-size: 22px;
+    }
+    
+    .moon {
+      font-size: 18px;
+    }
+  }

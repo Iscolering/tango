@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 1,
+    "name": "Level 1",
+    "constraints": [
+      {
+        "row1": 1,
+        "col1": 0,
+        "row2": 1,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 3,
+        "col1": 0,
+        "row2": 3,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 5,
+        "row2": 5,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 3,
+        "row2": 4,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 2,
+        "row2": 5,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 4,
+        "row2": 2,
+        "col2": 5,
+        "type": "equal"
+      },
+      {
+        "row1": 0,
+        "col1": 1,
+        "row2": 0,
+        "col2": 2,
+        "type": "equal"
+      },
+      {
+        "row1": 4,
+        "col1": 1,
+        "row2": 4,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 4,
+        "row2": 3,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 3,
+        "row2": 3,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 0,
+        "row2": 2,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 1,
+        "col1": 3,
+        "row2": 1,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 5,
+        "row2": 1,
+        "col2": 5,
+        "type": "equal"
+      },
+      {
+        "row1": 4,
+        "col1": 0,
+        "row2": 5,
+        "col2": 0,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 5,
+        "col": 2,
+        "symbol": "sun"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "symbol": "sun"
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "symbol": "sun"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "symbol": "sun"
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "symbol": "moon"
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "symbol": "moon"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Level 2",
+    "constraints": [
+      {
+        "row1": 1,
+        "col1": 0,
+        "row2": 1,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 5,
+        "col1": 4,
+        "row2": 5,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 3,
+        "row2": 4,
+        "col2": 4,
+        "type": "equal"
+      },
+      {
+        "row1": 2,
+        "col1": 0,
+        "row2": 2,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 0,
+        "row2": 0,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 2,
+        "row2": 3,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 4,
+        "row2": 0,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 4,
+        "row2": 1,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 2,
+        "row2": 5,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 2,
+        "col1": 5,
+        "row2": 3,
+        "col2": 5,
+        "type": "equal"
+      },
+      {
+        "row1": 5,
+        "col1": 0,
+        "row2": 5,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 3,
+        "col1": 1,
+        "row2": 4,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 2,
+        "row2": 0,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 2,
+        "row2": 2,
+        "col2": 3,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 0,
+        "col": 0,
+        "symbol": "sun"
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "symbol": "sun"
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "symbol": "sun"
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "symbol": "moon"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "symbol": "moon"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "symbol": "moon"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Level 3",
+    "constraints": [
+      {
+        "row1": 1,
+        "col1": 4,
+        "row2": 1,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 4,
+        "row2": 2,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 0,
+        "row2": 5,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 2,
+        "row2": 2,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 1,
+        "row2": 4,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 5,
+        "row2": 5,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 3,
+        "row2": 0,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 4,
+        "row2": 3,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 0,
+        "row2": 3,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 1,
+        "col1": 2,
+        "row2": 1,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 2,
+        "col1": 0,
+        "row2": 2,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 4,
+        "row2": 5,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 3,
+        "row2": 4,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 0,
+        "row2": 0,
+        "col2": 1,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 2,
+        "col": 3,
+        "symbol": "sun"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "symbol": "moon"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "symbol": "sun"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "symbol": "moon"
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "symbol": "sun"
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "symbol": "moon"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Level 4",
+    "constraints": [
+      {
+        "row1": 1,
+        "col1": 0,
+        "row2": 1,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 4,
+        "col1": 0,
+        "row2": 4,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 3,
+        "row2": 3,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 2,
+        "row2": 5,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 3,
+        "row2": 0,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 0,
+        "row2": 3,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 2,
+        "row2": 1,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 0,
+        "col1": 5,
+        "row2": 1,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 2,
+        "row2": 2,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 4,
+        "col1": 3,
+        "row2": 4,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 5,
+        "row2": 5,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 0,
+        "row2": 5,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 1,
+        "row2": 0,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 2,
+        "row2": 4,
+        "col2": 2,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 5,
+        "col": 5,
+        "symbol": "sun"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "symbol": "moon"
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "symbol": "moon"
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "symbol": "sun"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "symbol": "sun"
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "symbol": "moon"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Level 5",
+    "constraints": [
+      {
+        "row1": 4,
+        "col1": 0,
+        "row2": 4,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 0,
+        "row2": 3,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 3,
+        "row2": 4,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 3,
+        "row2": 3,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 0,
+        "row2": 2,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 1,
+        "row2": 1,
+        "col2": 2,
+        "type": "equal"
+      },
+      {
+        "row1": 5,
+        "col1": 0,
+        "row2": 5,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 5,
+        "row2": 5,
+        "col2": 5,
+        "type": "equal"
+      },
+      {
+        "row1": 2,
+        "col1": 4,
+        "row2": 2,
+        "col2": 5,
+        "type": "equal"
+      },
+      {
+        "row1": 1,
+        "col1": 4,
+        "row2": 1,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 3,
+        "row2": 2,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 5,
+        "col1": 2,
+        "row2": 5,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 2,
+        "row2": 3,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 2,
+        "row2": 0,
+        "col2": 3,
+        "type": "equal"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 1,
+        "col": 3,
+        "symbol": "sun"
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "symbol": "moon"
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "symbol": "moon"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "symbol": "moon"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "symbol": "moon"
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "symbol": "moon"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Level 6",
+    "constraints": [
+      {
+        "row1": 4,
+        "col1": 4,
+        "row2": 4,
+        "col2": 5,
+        "type": "equal"
+      },
+      {
+        "row1": 0,
+        "col1": 3,
+        "row2": 0,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 2,
+        "row2": 5,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 0,
+        "col1": 1,
+        "row2": 0,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 0,
+        "row2": 3,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 3,
+        "col1": 2,
+        "row2": 3,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 1,
+        "col1": 2,
+        "row2": 1,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 0,
+        "row2": 1,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 2,
+        "col1": 2,
+        "row2": 2,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 0,
+        "row2": 2,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 0,
+        "row2": 4,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 5,
+        "row2": 3,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 4,
+        "row2": 3,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 5,
+        "row2": 1,
+        "col2": 5,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 5,
+        "col": 1,
+        "symbol": "sun"
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "symbol": "moon"
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "symbol": "sun"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "symbol": "moon"
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "symbol": "moon"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "symbol": "sun"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Level 7",
+    "constraints": [
+      {
+        "row1": 1,
+        "col1": 0,
+        "row2": 1,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 0,
+        "row2": 0,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 3,
+        "row2": 1,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 5,
+        "row2": 2,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 0,
+        "row2": 5,
+        "col2": 1,
+        "type": "equal"
+      },
+      {
+        "row1": 2,
+        "col1": 4,
+        "row2": 3,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 1,
+        "row2": 2,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 2,
+        "row2": 0,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 2,
+        "row2": 3,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 0,
+        "row2": 3,
+        "col2": 0,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 2,
+        "row2": 5,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 0,
+        "col1": 4,
+        "row2": 0,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 4,
+        "row2": 4,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 4,
+        "row2": 5,
+        "col2": 5,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 3,
+        "col": 2,
+        "symbol": "moon"
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "symbol": "moon"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "symbol": "sun"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "symbol": "sun"
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "symbol": "sun"
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "symbol": "moon"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Level 8",
+    "constraints": [
+      {
+        "row1": 3,
+        "col1": 0,
+        "row2": 3,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 0,
+        "row2": 2,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 0,
+        "row2": 4,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 0,
+        "row2": 5,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 2,
+        "row2": 0,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 0,
+        "row2": 0,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 4,
+        "row2": 2,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 2,
+        "row2": 3,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 3,
+        "col1": 5,
+        "row2": 4,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 5,
+        "row2": 1,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 3,
+        "row2": 4,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 3,
+        "row2": 1,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 2,
+        "row2": 5,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 4,
+        "row2": 5,
+        "col2": 5,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 2,
+        "col": 2,
+        "symbol": "sun"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "symbol": "moon"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "symbol": "sun"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "symbol": "sun"
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "symbol": "sun"
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "symbol": "moon"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Level 9",
+    "constraints": [
+      {
+        "row1": 1,
+        "col1": 1,
+        "row2": 1,
+        "col2": 2,
+        "type": "equal"
+      },
+      {
+        "row1": 3,
+        "col1": 5,
+        "row2": 4,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 1,
+        "row2": 5,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 3,
+        "row2": 1,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 1,
+        "row2": 2,
+        "col2": 2,
+        "type": "equal"
+      },
+      {
+        "row1": 1,
+        "col1": 5,
+        "row2": 2,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 4,
+        "row2": 5,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 0,
+        "row2": 2,
+        "col2": 0,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 2,
+        "row2": 4,
+        "col2": 3,
+        "type": "equal"
+      },
+      {
+        "row1": 3,
+        "col1": 1,
+        "row2": 3,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 4,
+        "row2": 3,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 4,
+        "row2": 0,
+        "col2": 5,
+        "type": "equal"
+      },
+      {
+        "row1": 0,
+        "col1": 0,
+        "row2": 0,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 0,
+        "row2": 4,
+        "col2": 1,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 1,
+        "col": 5,
+        "symbol": "sun"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "symbol": "sun"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "symbol": "moon"
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "symbol": "moon"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "symbol": "moon"
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "symbol": "moon"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Level 10",
+    "constraints": [
+      {
+        "row1": 2,
+        "col1": 3,
+        "row2": 2,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 4,
+        "row2": 5,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 2,
+        "col1": 5,
+        "row2": 3,
+        "col2": 5,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 4,
+        "row2": 4,
+        "col2": 4,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 0,
+        "row2": 3,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 5,
+        "col1": 1,
+        "row2": 5,
+        "col2": 2,
+        "type": "equal"
+      },
+      {
+        "row1": 0,
+        "col1": 3,
+        "row2": 0,
+        "col2": 4,
+        "type": "equal"
+      },
+      {
+        "row1": 1,
+        "col1": 2,
+        "row2": 1,
+        "col2": 3,
+        "type": "opposite"
+      },
+      {
+        "row1": 0,
+        "col1": 1,
+        "row2": 0,
+        "col2": 2,
+        "type": "equal"
+      },
+      {
+        "row1": 2,
+        "col1": 2,
+        "row2": 3,
+        "col2": 2,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 1,
+        "row2": 2,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 1,
+        "col1": 0,
+        "row2": 2,
+        "col2": 0,
+        "type": "opposite"
+      },
+      {
+        "row1": 4,
+        "col1": 0,
+        "row2": 4,
+        "col2": 1,
+        "type": "opposite"
+      },
+      {
+        "row1": 3,
+        "col1": 3,
+        "row2": 4,
+        "col2": 3,
+        "type": "opposite"
+      }
+    ],
+    "fixedCells": [
+      {
+        "row": 1,
+        "col": 0,
+        "symbol": "moon"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "symbol": "moon"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "symbol": "sun"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "symbol": "sun"
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "symbol": "moon"
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "symbol": "moon"
+      }
+    ]
+  }
+]

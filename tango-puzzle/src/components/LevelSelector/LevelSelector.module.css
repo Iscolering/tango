@@ -1,0 +1,53 @@
+/* src/components/LevelSelector/LevelSelector.module.css */
+
+.selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    gap: 10px;
+  }
+  
+  .arrowButton {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c0c0;
+    border: 2px solid #333;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .arrowButton:hover:not(:disabled) {
+    background-color: #eee;
+  }
+  
+  .arrowButton:disabled {
+    color: #ccc;
+    border-color: #b8b3b3;
+    cursor: not-allowed;
+  }
+  
+  .levelButton {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: default;
+    padding: 0;
+  }
+  
+  .levelNumber {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    line-height: 1;
+  }
